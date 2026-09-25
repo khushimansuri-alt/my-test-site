@@ -1,8 +1,7 @@
 ---
-layout: base.njk
 title: My Homepage
 ---
-# Welcome to My Test Site
+# Welcome to My World
 
 This is the **editable homepage text**. Try changing this in Pages CMS and watch it go live automatically!
 
