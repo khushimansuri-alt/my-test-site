@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | My Test Site</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">My Test Site</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog-feed/">Blog</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 My Test Site. Built with Eleventy, edited with Pages CMS.</p>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
